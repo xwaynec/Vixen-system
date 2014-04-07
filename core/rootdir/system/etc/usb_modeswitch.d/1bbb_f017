@@ -1,0 +1,14 @@
+########################################################
+# Vodafone (Huawei) K3806
+
+DefaultVendor= 0x1bbb
+DefaultProduct=0xf017
+
+TargetVendor=  0x1bbb
+TargetProduct= 0x0017
+
+CheckSuccess=20
+
+MessageContent="55534243785634120100000080000606f50402527000000000000000000000"
+
+                55534243785634120100000080000606f50402527000000000000000000000
