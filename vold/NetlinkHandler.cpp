@@ -26,7 +26,7 @@
 #include <sysutils/NetlinkEvent.h>
 #include "NetlinkHandler.h"
 #include "VolumeManager.h"
-#include <utils/wmt_battery.h>
+//#include <utils/wmt_battery.h>
 int max_power[5];  //i dont know it is 0~4 or 1~4
 
 NetlinkHandler::NetlinkHandler(int listenerSocket) :
@@ -104,7 +104,7 @@ void NetlinkHandler::send2batterycal(void)
 		power = 2000;
 	power/=20;
 	//SLOGW("call reportModuleChangeEventForBattery %d\n",power);
-	reportModuleChangeEventForBattery(BM_USBDEVICE,power);
+	//reportModuleChangeEventForBattery(BM_USBDEVICE,power);
 
 }
 void NetlinkHandler::process_usb_event(const char * path,int action) 
