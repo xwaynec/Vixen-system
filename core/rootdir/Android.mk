@@ -92,7 +92,7 @@ include $(CLEAR_VARS)
 MYPATH:=$(PRODUCT_OUT)/system
 LOCAL_PATH:=$(MYPATH)
 LOCAL_PREBUILT_LIBS:=ppp.so
-LOCAL_MODULE_TAGS := $(TARGET_BUILD_VARIANT)
+LOCAL_MODULE_TAGS := optional
 $(MYPATH)/ppp.so:private_my_build_target
 .phony: private_my_build_target
 private_my_build_target:
