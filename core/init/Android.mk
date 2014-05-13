@@ -41,7 +41,7 @@ LOCAL_C_INCLUDES += external/libselinux/include
 LOCAL_CFLAGS += -DHAVE_SELINUX
 endif
 LOCAL_C_INCLUDES += \
-    device/wmt/common
+    device/via/common
 
 include $(BUILD_EXECUTABLE)
 
